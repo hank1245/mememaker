@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.palate {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+.palate button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+[data-color="#ffa500"] {
+  background-color: #ffa500;
+}
+[data-color="#008001"] {
+  background-color: #008001;
+}
+[data-color="#0000ff"] {
+  background-color: #0000ff;
+}
+[data-color="#fec0ca"] {
+  background-color: #fec0ca;
+}
+[data-color="#ff0000"] {
+  background-color: #ff0000;
+}
